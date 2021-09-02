@@ -1,0 +1,30 @@
+.calculator-body{
+    width: 500px;
+    height: 700px;
+    background: dimgray;
+    border:solid 1px;
+    margin-left: 450px;
+
+}
+#input-output-screen{
+    width: 400px;
+    height: 50px;
+    margin-left: 46px;
+    margin-top: 75px;
+    pointer-events: none;
+}
+
+.btn{
+    width: 71px;
+    height: 60px;
+    margin-top: 49px;
+    margin-left: 39px;
+    background: bisque;
+}
+#clr{
+    width: 90px;
+    height: 48px;
+    margin-left: 194px;
+    margin-top: 35px;
+    background: bisque;
+}

@@ -1,9 +1,10 @@
 .calculator-body{
     width: 500px;
-    height: 700px;
-    background: dimgray;
+    height: 750px;
+    background: #161c3fe0;
     border:solid 1px;
     margin-left: 450px;
+    border-radius: 1in;
 
 }
 #input-output-screen{
@@ -12,6 +13,8 @@
     margin-left: 46px;
     margin-top: 75px;
     pointer-events: none;
+    font-size: 1cm;
+    text-align: center;
 }
 
 .btn{
@@ -19,12 +22,37 @@
     height: 60px;
     margin-top: 49px;
     margin-left: 39px;
-    background: bisque;
+    background: white;
+    border-radius: 0.3cm;
+    font-weight: bold;
+    font-size: 0.7cm;
+    
 }
 #clr{
-    width: 90px;
+    width: 140px;
     height: 48px;
     margin-left: 194px;
     margin-top: 35px;
-    background: bisque;
+    background: #ffb74b;
+    font-size: 0.7cm;
+    font-weight: 500;
+}
+body{
+    margin: 0px;
+}
+
+.main-body{
+    background: #72e6b1f0;
+    width: 100%;
+    height: 753px;
+}
+.operations{
+    width: 71px;
+    height: 60px;
+    margin-top: 49px;
+    margin-left: 39px;
+    background: #ff796f;
+    border-radius: 0.3cm;
+    font-weight: bold;
+    font-size: 0.7cm;
 }
